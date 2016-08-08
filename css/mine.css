@@ -1,0 +1,52 @@
+/*!
+ * Start Bootstrap - Grayscale v1.1.1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+video {
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  width: auto;
+  height: 100%;
+  z-index: -100;
+}
+.intro {
+  background-color: transparent;
+  background: none;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  overflow: hidden;
+}
+.download-section {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background-image: url('../img/bg2-darken.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+  -webkit-filter: grayscale(1);
+}
+.team-member img:hover {
+  -webkit-filter: none;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+}
