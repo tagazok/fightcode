@@ -3,6 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+@font-face {
+  font-family: 'Tagesschrift';
+  src: url('../fonts/EliteHacker.ttf');
+}
 video {
   transform: translateX(-50%) translateY(-50%);
   position: absolute;
@@ -20,6 +24,45 @@ video {
   background-size: cover;
   background-position: 50% 50%;
   overflow: hidden;
+}
+.brand-heading {
+  font-family: 'Tagesschrift', 'Georgia', serif;
+  letter-spacing: 2px;
+}
+@media (min-width: 1280px) {
+  .intro .intro-body .brand-heading {
+    font-size: 150px;
+  }
+}
+.rules-section {
+  width: 100%;
+  background: #474747 url('../img/bg-rules2.png');
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.rules-section h2 {
+  color: #999;
+  text-shadow: 0px 3px 8px #2a2a2a;
+}
+.rules-section .rules {
+  display: inline-block;
+  text-align: left;
+}
+.rules-section .rules p {
+  color: #151414;
+  font-weight: 600;
+  text-shadow: 0px 2px 3px #555;
+}
+.rules-section .rules p .rule-number {
+  padding-right: 10px;
+}
+.rules-section .rules p .rule-highlight {
+  color: #ccbf2e;
+}
+@media (min-width: 768px) {
+  .rules p {
+    letter-spacing: 1px;
+  }
 }
 .download-section {
   width: 100%;
