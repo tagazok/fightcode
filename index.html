@@ -73,7 +73,7 @@
     </nav>
 
     <!-- Intro Header -->
-    
+
     <header class="intro">
         <video autoplay="" playsinline="" loop="" muted="" preload="auto">
             <source src="videos/bg1.mp4" type="video/mp4" id="SITE_BACKGROUNDcurrentVideomp4" class="siteBackgroundcurrentVideomp4" data-reactid=".0.$SITE_BACKGROUND.$t9jub.1.0.0">
@@ -84,7 +84,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <div class="brand-heading">fight Code</div>
+                        <div class="brand-heading"><span>fight</span> <span>code</span></div>
                         <p class="intro-text">Enter the arena. Follow the rules.
                             <br>October 19th. Paris.</p>
                         <a href="#about" class="btn btn-circle page-scroll">
@@ -223,6 +223,24 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
+    <script src="js/shuffle.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+      var animate = function animate() {
+        $('.brand-heading').shuffleText('fight code', {
+          frames   : 3000,    // Duration In ms (Milliseconds) Of Shuffle For Each Letter
+          maxSpeed : 3500,  // Max Duration In ms (Milliseconds) Of Global Shuffle
+          amount   : 5     // Amount Of Shuffle For Each Letter
+        });
+      };
+      setTimeout(function(){
+        animate();
+        setInterval(animate, 8000);
+      }, 1000);
+
+    });
+    </script>
 
 </body>
 
