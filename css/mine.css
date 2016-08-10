@@ -47,6 +47,7 @@ video {
 .rules-section .rules {
   display: inline-block;
   text-align: left;
+  max-width: 460px;
 }
 .rules-section .rules p {
   color: #151414;
