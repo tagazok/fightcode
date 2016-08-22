@@ -41,24 +41,29 @@ video {
   padding-bottom: 100px;
 }
 .rules-section h2 {
+  font-size: 42px;
   color: #999;
   text-shadow: 0px 3px 8px #2a2a2a;
 }
 .rules-section .rules {
   display: inline-block;
   text-align: left;
-  max-width: 460px;
+  max-width: 640px;
 }
 .rules-section .rules p {
-  color: #151414;
+  color: #EFEFEF;
   font-weight: 600;
-  text-shadow: 0px 2px 3px #555;
+  text-shadow: 0px -1px 1px #444;
+  font-size: 26px;
 }
 .rules-section .rules p .rule-number {
   padding-right: 10px;
 }
 .rules-section .rules p .rule-highlight {
-  color: #ccbf2e;
+  color: #ffde2a;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 28px;
 }
 @media (min-width: 768px) {
   .rules p {
