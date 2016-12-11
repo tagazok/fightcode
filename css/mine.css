@@ -99,11 +99,12 @@ video {
 .team-member p {
   margin-top: 0;
 }
-
 .sponsor {
   text-align: center;
 }
-
 .sponsor img {
   max-width: 80%;
+}
+footer div.container {
+  color: #555555;
 }
