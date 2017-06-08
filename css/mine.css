@@ -1,11 +1,17 @@
 /*!
  * Start Bootstrap - Grayscale v1.1.1 (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 @font-face {
   font-family: 'Tagesschrift';
   src: url('../fonts/EliteHacker.ttf');
+}
+.logo {
+  max-height: 100%;
+}
+.navbar-brand {
+  padding: 5px !important;
 }
 video {
   transform: translateX(-50%) translateY(-50%);
